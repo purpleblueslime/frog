@@ -1,0 +1,33 @@
+body {
+  background-color: transparent;
+  height: 150px;
+  margin: 0;
+  overflow: hidden;
+  width: 140px;
+}
+
+img {
+  object-fit: cover;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.box {
+  display: grid;
+}
+
+.herta {
+  height: 140px;
+  width: 100%;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.bar {
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 4px;
+  margin: 6px 40px 0px 40px;
+  opacity: 0.5;
+}
